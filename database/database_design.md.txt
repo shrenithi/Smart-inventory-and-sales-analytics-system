@@ -1,0 +1,28 @@
+# Database Design
+
+## USERS
+
+| Field Name | Data Type    |
+| ---------- | ------------ |
+| user_id    | INT          |
+| username   | VARCHAR(50)  |
+| password   | VARCHAR(100) |
+| role       | VARCHAR(20)  |
+
+## PRODUCTS
+
+| Field Name   | Data Type     |
+| ------------ | ------------- |
+| product_id   | INT           |
+| product_name | VARCHAR(100)  |
+| quantity     | INT           |
+| price        | DECIMAL(10,2) |
+
+## SALES
+
+| Field Name    | Data Type |
+| ------------- | --------- |
+| sale_id       | INT       |
+| product_id    | INT       |
+| quantity_sold | INT       |
+| sale_date     | DATE      |
